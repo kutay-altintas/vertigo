@@ -18,6 +18,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 #Copy project
 COPY . .
 
-ENV PORT=8000
+ENV PORT=8080
 
-CMD ["gunicorn", "-b", "0.0.0.0:8000", "wsgi:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "wsgi:app"]
