@@ -5,5 +5,9 @@ __pycache__/
 # venv
 .venv/
 
+# env files
+.env
+.env.local
+
 # SQLite db
 clans.db
