@@ -5,14 +5,17 @@ API development, cloud deployment, data modeling, and business-oriented visualiz
 
 ## Repository Structure
 
+```bash
 ├── app/                 # Flask application  
 ├── Dockerfile 
 ├── docker-compose.yml
+├── wsgi.py
 ├── data/  
 │   ├── daily_metrics.sql  
 │   ├── daily_metrics.csv  
 │   └── DailyMetrics.twb 
 └── README.md
+```
 
 # Database & API
 
