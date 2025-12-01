@@ -8,3 +8,5 @@ __pycache__
 .clan.db
 .env
 .env.local
+data/**/*
+data
